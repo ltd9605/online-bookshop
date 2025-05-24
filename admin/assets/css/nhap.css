@@ -1,0 +1,245 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 54px !important;
+}
+
+.p-6 {
+    padding: 60px !important;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: #f4f4f4;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.actions a,
+.actions button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.view {
+    color: #007BFF;
+}
+
+.delete {
+    color: #dc3545;
+}
+
+.view:hover {
+    color: #0056b3;
+}
+
+.delete:hover {
+    color: #c82333;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-link {
+    padding: 6px 12px;
+    margin: 0 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+    text-decoration: none;
+}
+
+.page-link:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.page-link.active {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.page-ellipsis {
+    margin: 0 5px;
+}
+
+/*================================= chi tiết phiếu nhập==============*/
+.ctpn-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    padding: 30px;
+    z-index: 11;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+.span {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.modal-content {
+    width: 60%;
+    min-width: 700px;
+    margin: 0 auto;
+    padding: 60px !important;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Modal */
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.modal-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.btn-close {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: #888;
+    cursor: pointer;
+}
+
+.btn-close:hover {
+    color: #333;
+}
+
+/* Nội dung modal */
+.modal-body {
+    padding: 0 20px;
+}
+
+/* Các phần tử thông tin */
+.info h5 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.info .text-danger {
+    /* color: #e74c3c; */
+    font-weight: lighter;
+}
+
+.info .text-black {
+    color: #333;
+    font-weight: bold;
+}
+
+.info .text-capitalize {
+    text-transform: capitalize;
+}
+
+/* Bảng thông tin chi tiết */
+.list-product table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.list-product th,
+.list-product td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.list-product th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.list-product tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Style cho các cột trong bảng */
+.list-product td img {
+    width: 80px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.list-product .text-uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.list-product .text-center {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .modal-body {
+        padding: 10px;
+    }
+
+    .list-product table th,
+    .list-product table td {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .list-product td img {
+        width: 60px;
+    }
+}

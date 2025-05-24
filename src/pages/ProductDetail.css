@@ -1,0 +1,33 @@
+section {
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px;
+}
+.left-product-details {
+  width: 30vw;
+  height: 95vh;
+}
+.right-product-details {
+  width: 60vw;
+}
+.right-product-details h1 {
+  font-size: 1.7em;
+  font-weight: 600;
+  line-height: 1.5em;
+  overflow-wrap: break-word;
+  padding-bottom: 8px;
+  color: #212121;
+  margin: 0;
+}
+
+.old-price {
+  color: #888888;
+  font-size: 15px;
+}
+.discount-percent {
+  font-size: 15px;
+  border-radius: 5px;
+  background: #c92127;
+  padding: 2px 4px;
+  color: white;
+}
